@@ -37,7 +37,8 @@ li a:hover {
 	background-color: white;
 	color: #444;
 	text-align: center;
-	box-shadow: 0px 0px 10px 0px rgba(40, 50, 65, 0.1);
+	padding-top: 70px;
+	padding-bottom: 70px;
 	width: 100%;
 }
 .header p{
@@ -45,10 +46,9 @@ li a:hover {
 	font-size: 25px;
 }
 .header h2{
-	padding: 70px;
 	font-size: 35px;
 }
-.dynamic{
+.top{
 	background-image: url("Raindrops1080.png");
 	color: rgb(250, 250, 250);
 	text-align: center;
@@ -57,11 +57,20 @@ li a:hover {
 	box-shadow: 0px 0px 10px 0px rgba(40, 50, 65, 0.1);
 	width: 100%;
 }
-.dynamic p{
+.top p{
 	font-size: 18px;
 	width: 50%;
 	margin: auto;
 }
+.dynamic{
+	background-image: url("Raindrops1080.png");
+	color: rgb(250, 250, 250);
+	text-align: center;
+	//box-shadow: 0px 0px 10px 0px rgba(40, 50, 65, 0.1);
+	width: 100%;
+	font-size: 0px;
+}
+
 .profile{
 	border-radius: 50%;
 	width: 300px;
@@ -70,6 +79,7 @@ li a:hover {
 	margin-bottom: 20px;
 }
 .tile1{
+	margin-top: 60px;
 	width: 400px;
 	display: inline-block;
 }
@@ -82,6 +92,57 @@ li a:hover {
 .tile1 p{
 	padding-top: 20px;
 	font-size: 18px;
+}
+.tile2{
+	width: 50%;
+	height: 400px;
+	background-color: grey;
+	display: inline-block;
+}
+.tile2 h3{
+	padding-top: 180px;
+	font-size: 20px;
+}
+.tile2 p{
+	padding-top: 20px;
+	font-size: 18px;
+}
+.go{
+	background-image: url("Bowl.jpg");
+	background-position: center;
+	background-size: 100%;
+	height: 400px;
+}
+.hololens{
+	background-image: url("Hololens.jpg");
+	background-position: center;
+	background-size: 130%;
+	height: 400px;
+}
+.contact{
+	background-color: rgb(30, 30, 40);
+	color: rgb(250, 250, 250);
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	width: 100%;
+}
+.contact p{
+	padding: 10px;
+	font-size: 18px;
+}
+.contact h2{
+	padding-bottom: 60px;
+	font-size: 35px;
+}
+.contact a{
+	color: rgb(250, 250, 250);
+	font-size: 18px;
+	//text-decoration: none;
+	text-shadow: 0px 0px 10px black;
+}
+.inline{
+	display: inline-block;
 }
 .osu{
 	margin-bottom: 28px;
