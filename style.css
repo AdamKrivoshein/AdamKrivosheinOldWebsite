@@ -37,16 +37,19 @@ li a:hover {
 	background-color: white;
 	color: #444;
 	text-align: center;
-	padding-top: 70px;
-	padding-bottom: 70px;
 	width: 100%;
 }
 .header p{
 	padding: 70px;
+	padding-left: 40px;
+	padding-right: 40px;
 	font-size: 25px;
 }
 .header h2{
 	font-size: 35px;
+}
+.spacer{
+	height: 70px;
 }
 .top{
 	background-image: url("Raindrops1080.png");
@@ -80,7 +83,7 @@ li a:hover {
 }
 .tile1{
 	margin-top: 60px;
-	width: 400px;
+	width: 350px;
 	display: inline-block;
 }
 .tile1 img{
@@ -145,7 +148,13 @@ li a:hover {
 	display: inline-block;
 }
 .osu{
-	margin-bottom: 28px;
+	margin-bottom: 24px;
+}
+.defhacks{
+	margin-bottom: 30px;
+}
+.robotics{
+	margin-bottom: 19px;
 }
 p{
 	font-size: 18px;
